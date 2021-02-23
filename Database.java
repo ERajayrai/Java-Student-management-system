@@ -10,7 +10,7 @@ public class Database {
         try
         {
             Class.forName("com.mysql.jdbc.Driver");
-            Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/ajayrai","root","root");
+            Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/ajayrai","xyz","exx"); //for ***
             Statement stmt=con.createStatement();
             Scanner obj1=new Scanner(System.in);
             System.out.println("ienter the studentname");
